@@ -159,35 +159,55 @@
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
                             </svg>
                         </button>
-                        <div class="nav-dropdown-menu absolute top-full left-0 mt-1 w-72 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-200">
-                            <div class="py-2">
-                                <a href="{{ route('eservices') }}#mobile" class="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">
-                                    <div class="font-medium flex items-center">
-                                        <svg class="w-5 h-5 mr-2 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-                                        </svg>
-                                        Mobile Banking
+                        <div class="nav-dropdown-menu absolute top-full left-0 mt-1 w-96 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-200">
+                            <div class="p-6">
+                                <div class="grid grid-cols-2 gap-8">
+                                    <!-- Digital Services -->
+                                    <div>
+                                        <h3 class="text-sm font-bold text-gray-900 mb-4 uppercase tracking-wider">Digital Services</h3>
+                                        <div class="space-y-3">
+                                            <a href="{{ route('mobile') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">SACCOS Mobile</div>
+                                                <div class="text-xs text-gray-500">Mobile banking app</div>
+                                            </a>
+                                            <a href="{{ route('atm') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">ATM Services</div>
+                                                <div class="text-xs text-gray-500">24/7 cash access</div>
+                                            </a>
+                                            <a href="{{ route('online') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Online Banking</div>
+                                                <div class="text-xs text-gray-500">Web portal access</div>
+                                            </a>
+                                            <a href="{{ route('ussd') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">USSD Banking</div>
+                                                <div class="text-xs text-gray-500">Dial *150*45#</div>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="text-xs text-gray-500 ml-7">Bank on your smartphone</div>
-                                </a>
-                                <a href="{{ route('eservices') }}#online" class="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">
-                                    <div class="font-medium flex items-center">
-                                        <svg class="w-5 h-5 mr-2 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"/>
-                                        </svg>
-                                        Online Banking
+                                    
+                                    <!-- Member Services -->
+                                    <div>
+                                        <h3 class="text-sm font-bold text-gray-900 mb-4 uppercase tracking-wider">Member Services</h3>
+                                        <div class="space-y-3">
+                                            <a href="{{ route('portal') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Members Portal</div>
+                                                <div class="text-xs text-gray-500">Account management</div>
+                                            </a>
+                                            <a href="{{ route('register') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Register Online</div>
+                                                <div class="text-xs text-gray-500">Become a member</div>
+                                            </a>
+                                            <a href="{{ route('forms') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Forms</div>
+                                                <div class="text-xs text-gray-500">Download forms</div>
+                                            </a>
+                                            <a href="{{ route('calculator') }}" class="block group">
+                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Loan Calculator</div>
+                                                <div class="text-xs text-gray-500">Calculate payments</div>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="text-xs text-gray-500 ml-7">Web-based banking portal</div>
-                                </a>
-                                <a href="{{ route('eservices') }}#ussd" class="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">
-                                    <div class="font-medium flex items-center">
-                                        <svg class="w-5 h-5 mr-2 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                                        </svg>
-                                        USSD Banking
-                                    </div>
-                                    <div class="text-xs text-gray-500 ml-7">*149*96# - No internet needed</div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -298,10 +318,45 @@
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
                         </svg>
                     </button>
-                    <div class="mobile-dropdown-menu hidden pl-4 space-y-1">
-                        <a href="{{ route('eservices') }}#mobile" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Mobile Banking</a>
-                        <a href="{{ route('eservices') }}#online" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Online Banking</a>
-                        <a href="{{ route('eservices') }}#ussd" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">USSD Banking</a>
+                    <div class="mobile-dropdown-menu hidden pl-4">
+                        <div class="space-y-2">
+                            <h4 class="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wider">Digital Services</h4>
+                            <a href="{{ route('mobile') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">SACCOS Mobile</div>
+                                <div class="text-xs text-gray-500">Mobile banking app</div>
+                            </a>
+                            <a href="{{ route('atm') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">ATM Services</div>
+                                <div class="text-xs text-gray-500">24/7 cash access</div>
+                            </a>
+                            <a href="{{ route('online') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">Online Banking</div>
+                                <div class="text-xs text-gray-500">Web portal access</div>
+                            </a>
+                            <a href="{{ route('ussd') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">USSD Banking</div>
+                                <div class="text-xs text-gray-500">Dial *150*45#</div>
+                            </a>
+                        </div>
+                        <div class="space-y-2 mt-4">
+                            <h4 class="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wider">Member Services</h4>
+                            <a href="{{ route('portal') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">Members Portal</div>
+                                <div class="text-xs text-gray-500">Account management</div>
+                            </a>
+                            <a href="{{ route('register') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">Register Online</div>
+                                <div class="text-xs text-gray-500">Become a member</div>
+                            </a>
+                            <a href="{{ route('forms') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">Forms</div>
+                                <div class="text-xs text-gray-500">Download forms</div>
+                            </a>
+                            <a href="{{ route('calculator') }}" class="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors">
+                                <div class="font-medium">Loan Calculator</div>
+                                <div class="text-xs text-gray-500">Calculate payments</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
