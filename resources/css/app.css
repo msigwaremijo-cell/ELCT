@@ -1,0 +1,163 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    
+    /* Custom brand colors */
+    --color-primary: #aace3e;
+    --color-secondary: #1275b9;
+    --color-primary-50: #f7f9e8;
+    --color-primary-100: #eff3d1;
+    --color-primary-200: #e4e7a3;
+    --color-primary-300: #d9db75;
+    --color-primary-400: #cfcf47;
+    --color-primary-500: #aace3e;
+    --color-primary-600: #8ab532;
+    --color-primary-700: #6a9e28;
+    --color-primary-800: #4d8420;
+    --color-primary-900: #366818;
+    
+    --color-secondary-50: #e8f2fb;
+    --color-secondary-100: #d1e5f7;
+    --color-secondary-200: #a3d1ef;
+    --color-secondary-300: #75bde7;
+    --color-secondary-400: #47a9df;
+    --color-secondary-500: #1275b9;
+    --color-secondary-600: #0e5f94;
+    --color-secondary-700: #0b4a73;
+    --color-secondary-800: #083652;
+    --color-secondary-900: #052231;
+}
+
+/* Custom utility classes */
+.btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-md;
+}
+
+.btn-secondary {
+    @apply bg-secondary-500 hover:bg-secondary-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-md;
+}
+
+.btn-outline-primary {
+    @apply border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+}
+
+.btn-outline-secondary {
+    @apply border-2 border-secondary-500 text-secondary-500 hover:bg-secondary-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+}
+
+.hero-gradient {
+    background: linear-gradient(135deg, var(--color-secondary-500) 0%, var(--color-primary-500) 100%);
+}
+
+.card-hover {
+    @apply transform transition-transform duration-300 hover:scale-105 hover:shadow-xl;
+}
+
+.text-primary {
+    color: var(--color-primary-500);
+}
+
+.text-secondary {
+    color: var(--color-secondary-500);
+}
+
+.bg-primary {
+    background-color: var(--color-primary-500);
+}
+
+/* Dropdown animations */
+.nav-dropdown-menu {
+    transform-origin: top left;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Mobile dropdown chevron rotation */
+.rotate-180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+/* Enhanced hover effects */
+.nav-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(170, 206, 62, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.nav-item:hover::before {
+    left: 100%;
+}
+
+/* Search input focus effect */
+input[type="text"]:focus {
+    box-shadow: 0 0 0 3px rgba(170, 206, 62, 0.1);
+}
+
+/* Mobile menu slide animation */
+.mobile-menu {
+    transition: all 0.3s ease-in-out;
+    transform-origin: top;
+}
+
+/* Sticky header transition */
+header.sticky {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Enhanced button hover effects */
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(170, 206, 62, 0.3);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(18, 117, 185, 0.3);
+}
+
+/* Logo area hover effect */
+.logo-area:hover .logo-circle {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Top bar link hover effects */
+.top-bar-link {
+    position: relative;
+}
+
+.top-bar-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color-primary-500);
+    transition: width 0.3s ease;
+}
+
+.top-bar-link:hover::after {
+    width: 100%;
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary-500);
+}

@@ -1,0 +1,316 @@
+@extends('layouts.app')
+
+@section('content')
+<!-- Hero Section -->
+<section class="hero-gradient text-white py-20 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+        <img src="{{ asset('images/people-office-analyzing-checking-finance-graphs.jpg') }}" alt="Financial Services" class="w-full h-full object-cover">
+    </div>
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">ELCT ND SACCOS</h1>
+            <p class="text-2xl md:text-3xl mb-8 opacity-95">Giving everyone an opportunity to achieve financial security</p>
+            <p class="text-lg md:text-xl mb-8 opacity-90 max-w-3xl">
+                People in United Republic of Tanzania are hard working and have dreams to fulfill in life. In their course of their work, they need a financial partner and friend who supports them to save, invest and grow - in pursuit of their dreams and aspirations. ELCT ND SACCOS is a financial partner and friend.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="{{ route('contact') }}" class="btn-primary text-lg py-4 px-8">Become a Member</a>
+                <a href="{{ route('products') }}" class="btn-outline-secondary text-lg py-4 px-8">Our Services</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="text-6xl md:text-7xl font-bold text-primary mb-4">28+</div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-secondary">Years of Experience</h2>
+                <p class="text-gray-600 text-lg mb-6">
+                    ELCT ND SACCOS was established in 1994 and was officially registered on 27/07/1995 under Cooperative Society Act number 15 of 1991.
+                </p>
+                <p class="text-gray-600">
+                    With more than 28 years of experience serving the community, we have built a reputation for trust, reliability, and member-focused financial services.
+                </p>
+            </div>
+            <div>
+                <img src="{{ asset('images/young-businessman-analyzing-data-holding-magnifying-glass-generated-by-ai.jpg') }}" alt="28+ Years Experience" class="rounded-lg shadow-xl w-full h-auto">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Join Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">WHY SHOULD YOU JOIN ELCT ND SACCOS?</h2>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+                <div class="flex items-start">
+                    <svg class="w-6 h-6 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <div>
+                        <h4 class="font-semibold text-gray-900 mb-1">Member-Owned</h4>
+                        <p class="text-gray-600">Owned by Members and all decisions of operations are made from Annual General Meeting (AGM).</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <svg class="w-6 h-6 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <div>
+                        <h4 class="font-semibold text-gray-900 mb-1">Regulated & Secure</h4>
+                        <p class="text-gray-600">Regulated and audited in accordance with Cooperative Society Act 2013 and Microfinance Act 2018.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space-y-6">
+                <div class="flex items-start">
+                    <svg class="w-6 h-6 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zm1.134 3.164c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C9.07 11.34 9 11.114 9 11c0-.114.07-.34.433-.582zm-2.567-.267v1.698a2.305 2.305 0 01-.567-.267C6.07 8.34 6 8.114 6 8c0-.114.07-.34.433-.582z"/>
+                    </svg>
+                    <div>
+                        <h4 class="font-semibold text-gray-900 mb-1">Not for Profit</h4>
+                        <p class="text-gray-600">Not for profit making, works on members financial needs, and gives dividends to members from profits.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <svg class="w-6 h-6 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                    </svg>
+                    <div>
+                        <h4 class="font-semibold text-gray-900 mb-1">Digital Services</h4>
+                        <p class="text-gray-600">Distance is not a barrier, transact at your convenience with ATM Card and Mobile (App & USSD).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Services</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">Comprehensive financial solutions designed to meet your personal and business needs</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Membership -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zm17 6a5 5 0 00-4.546-4.916 5.986 5.986 0 00-4.908 4.908c-.583.058-.918.058-1.464.058V16a1 1 0 001 1h2a1 1 0 001-1v-1.954c.546 0 .881 0 1.464-.058a5.986 5.986 0 004.908-4.908A5 5 0 0016 12z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-secondary text-center">Membership</h3>
+                <p class="text-gray-600 text-center mb-4">
+                    ELCT ND SACCOS membership are an Entrepreneur, Businessman and all employees from United Republic of Tanzania.
+                </p>
+                <div class="text-center">
+                    <a href="#" class="btn-secondary">Join Now</a>
+                </div>
+            </div>
+            
+            <!-- Savings and Deposits -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"/>
+                        <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h14a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm7-1a1 1 0 100 2h1a1 1 0 100-2h-1z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-secondary text-center">Savings and Deposits</h3>
+                <p class="text-gray-600 text-center mb-4">
+                    ELCT ND SACCOS allows her Members to pay for SHARE, make regular SAVINGS and DEPOSITS at their convenient.
+                </p>
+                <div class="text-center">
+                    <a href="{{ route('products') }}#savings" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            
+            <!-- Loans -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-secondary text-center">Loans</h3>
+                <p class="text-gray-600 text-center mb-4">
+                    ELCT ND SACCOS gives and issue loans to her Members in affordable interest rate in order to fulfill their financial needs.
+                </p>
+                <div class="text-center">
+                    <a href="{{ route('products') }}#loans" class="btn-secondary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Best SACCOS Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="{{ asset('images/woman-interacting-with-money.jpg') }}" alt="ELCT ND SACCOS Services" class="rounded-lg shadow-xl w-full h-auto">
+            </div>
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-secondary">ELCT ND SACCOS Is BEST SACCOS To Join</h2>
+                <p class="text-gray-600 text-lg mb-6">
+                    We will customize a loan based on amount of cash you need. Contact Now and experience the difference.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-primary-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-lg font-medium">28+ Years of Trusted Service</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-primary-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 3.976 3.066 3.066 0 001.745.723 3.066 3.066 0 003.976-3.976 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 00-3.976-3.976A3.066 3.066 0 006.267 3.455zM3 10a7 7 0 017-7 7 7 0 01-7 7zm7-4a1 1 0 100 2 0 1 1 0 000-2z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-lg font-medium">Member-Focused Approach</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-primary-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-lg font-medium">Affordable Interest Rates</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-primary-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <span class="text-lg font-medium">Digital Banking Solutions</span>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="{{ route('contact') }}" class="btn-primary text-lg py-3 px-6">Become a Member</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">What They're Talking About</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">Hear from our satisfied members about their experience with ELCT ND SACCOS</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Joyce K Mushi -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 rounded-full mr-4 flex-shrink-0"></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Joyce K Mushi</h3>
+                        <p class="text-sm text-gray-600">Mwanachama (Mama Kuku)</p>
+                    </div>
+                </div>
+                <blockquote class="text-gray-700 italic mb-4">
+                    "Ni ukweli hapa ndipo mahali ninapokimbilia, Nimeweza kufanya mengi kwa njia hii ya SACCOS. Nikiwa sina hela ya kuchukua kuku huwa nakuja SACCOS na kuchukua Mkopo wa Chapchap."
+                </blockquote>
+                <div class="flex items-center text-yellow-400">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Joe N Nkya -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 rounded-full mr-4 flex-shrink-0"></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Joe N Nkya</h3>
+                        <p class="text-sm text-gray-600">Mwanachama</p>
+                    </div>
+                </div>
+                <blockquote class="text-gray-700 italic mb-4">
+                    "Ninajua kwamba kumekuwa na SACCOS nyingi, na nyingi zimekufa. Lakini kwa kweli kwaajili ya ELCT ND SACCOS, NIMEIONA NURU NA MWANGA MKUBWA SANA WENYE MAFANIKIO."
+                </blockquote>
+                <div class="flex items-center text-yellow-400">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Prospar Mlay -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-16 h-16 bg-gray-200 rounded-full mr-4 flex-shrink-0"></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Prospar Mlay</h3>
+                        <p class="text-sm text-gray-600">Mwanachama</p>
+                    </div>
+                </div>
+                <blockquote class="text-gray-700 italic mb-4">
+                    "Kwa miaka ya nyuma nilikuwa nakopa Taasisi zingine. Lakini nilipoingia ELCT ND SACCOS ndipo nikapata mafanikio makubwa sana. Nawashauri watanzania wajiunge na ELCT ND SACCOS watapata mafanikio sana."
+                </blockquote>
+                <div class="flex items-center text-yellow-400">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 01-.95.69h-2.147l-1.07 3.292z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 bg-primary text-white">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Join Our Community?</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto opacity-95">
+            Experience the difference with ELCT ND SACCOS - your trusted financial partner for over 28 years.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="{{ route('contact') }}" class="bg-white text-primary-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-colors duration-200 shadow-md text-lg">Become a Member</a>
+            <a href="{{ route('products') }}" class="border-2 border-white text-white hover:bg-white hover:text-primary-500 font-semibold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">View Our Services</a>
+        </div>
+    </div>
+</section>
+@endsection
