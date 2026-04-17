@@ -59,8 +59,8 @@
                             <span class="text-white font-bold text-xl">EL</span>
                         </div>
                         <div>
-                            <h1 class="text-2xl font-bold text-secondary">ELCT ND SACCOS</h1>
-                            <p class="text-xs text-gray-600">Empowering Financial Growth</p>
+                            <img src="{{ asset('images/logo.png') }}" alt="ELCT ND SACCOS" class="h-12 w-auto">
+                            <p class="text-xs text-gray-600 mt-1">Empowering Financial Growth</p>
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,12 @@
         
         <!-- Mobile Menu -->
         <div class="mobile-menu hidden lg:hidden bg-white border-t border-gray-200">
-            <div class="container mx-auto px-4 py-4 space-y-2">
+            <div class="container mx-auto px-4 py-4">
+                <!-- Mobile Logo -->
+                <div class="flex items-center justify-center mb-6">
+                    <img src="{{ asset('images/logo.png') }}" alt="ELCT ND SACCOS" class="h-10 w-auto">
+                </div>
+                <div class="space-y-2">
                 <!-- Mobile Navigation Links -->
                 <a href="{{ route('home') }}" class="block px-4 py-3 text-base font-medium text-gray-900 hover:bg-gray-50 rounded-lg">Home</a>
                 
