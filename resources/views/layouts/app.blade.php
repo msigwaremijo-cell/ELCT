@@ -59,7 +59,7 @@
                             <span class="text-white font-bold text-xl">EL</span>
                         </div>
                         <div>
-                            <img src="{{ asset('images/logo.png') }}" alt="ELCT ND SACCOS" class="h-12 w-auto">
+                            <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-12 w-auto">
                             <p class="text-xs text-gray-600 mt-1">Empowering Financial Growth</p>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
             <div class="container mx-auto px-4 py-4">
                 <!-- Mobile Logo -->
                 <div class="flex items-center justify-center mb-6">
-                    <img src="{{ asset('images/logo.png') }}" alt="ELCT ND SACCOS" class="h-10 w-auto">
+                    <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-10 w-auto">
                 </div>
                 <div class="space-y-2">
                 <!-- Mobile Navigation Links -->
