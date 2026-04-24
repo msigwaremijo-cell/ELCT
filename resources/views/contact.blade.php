@@ -6,13 +6,157 @@
     <div class="container mx-auto px-4">
         <div class="max-w-3xl">
             <h1 class="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-            <p class="text-xl opacity-95">Get in touch with us for any inquiries, support, or to learn more about our services.</p>
+            <p class="text-xl opacity-95">Visit any of our branches or reach out for personalized assistance</p>
+        </div>
+    </div>
+</section>
+
+<!-- Branch Locations Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Branches and Locations</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">Find your nearest ELCT ND SACCOS branch for convenient banking services</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Kilimanjaro Region -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Kilimanjaro Region</h3>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Moshi Headquarter</h4>
+                            <p class="text-gray-600">+255 769 116 854</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Moshi Branch</h4>
+                            <p class="text-gray-600">+255 756 699 333</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Hai Branch</h4>
+                            <p class="text-gray-600">+255 752 441 450</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Siha Sales Office</h4>
+                            <p class="text-gray-600">+255 752 441 450</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Himo Branch</h4>
+                            <p class="text-gray-600">+255 743 906 171</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Mwika Sales Office</h4>
+                            <p class="text-gray-600">+255 743 906 171</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arusha Region -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Arusha Region</h3>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Arusha Branch</h4>
+                            <p class="text-gray-600">+255 764 921 527</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Karatu Branch</h4>
+                            <p class="text-gray-600">+255 717 127 326</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabora Region -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Tabora Region</h3>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Tabora Branch</h4>
+                            <p class="text-gray-600">+255 752 116 080</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- Contact Information & Form -->
-<section class="py-16 bg-white">
+<section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <!-- Contact Information -->
@@ -28,7 +172,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-xl font-semibold mb-2 text-secondary">Main Office</h3>
+                            <h3 class="text-xl font-semibold mb-2 text-secondary">KNCU Building Moshi</h3>
                             <p class="text-gray-600">
                                 ELCT ND SACCOS Headquarters<br>
                                 Arusha City, Tanzania<br>
@@ -47,9 +191,8 @@
                         <div>
                             <h3 class="text-xl font-semibold mb-2 text-secondary">Phone</h3>
                             <p class="text-gray-600">
-                                Main: +255 27 250 1234<br>
-                                Mobile: +255 754 123 456<br>
-                                Toll Free: 0800 123 456
+                                Toll Free: 080 075 0301<br>
+                                Mobile: +255 754 123 456
                             </p>
                         </div>
                     </div>
@@ -65,9 +208,9 @@
                         <div>
                             <h3 class="text-xl font-semibold mb-2 text-secondary">Email</h3>
                             <p class="text-gray-600">
-                                General: info@elctndsaccos.co.tz<br>
-                                Support: support@elctndsaccos.co.tz<br>
-                                Loans: loans@elctndsaccos.co.tz
+                                General: info@elctndsaccos.org<br>
+                                Support: support@elctndsaccos.org<br>
+                                Loans: loans@elctndsaccos.org
                             </p>
                         </div>
                     </div>
@@ -82,9 +225,9 @@
                         <div>
                             <h3 class="text-xl font-semibold mb-2 text-secondary">Business Hours</h3>
                             <p class="text-gray-600">
-                                Monday - Friday: 8:30 AM - 5:00 PM<br>
-                                Saturday: 9:00 AM - 1:00 PM<br>
-                                Sunday: Closed
+                                Monday - Friday: 8:30am - 4:30pm<br>
+                                Saturday: 9:00am - 2:00pm<br>
+                                Sunday: 11:00am - 2:00pm
                             </p>
                         </div>
                     </div>
@@ -338,11 +481,18 @@
 <!-- CTA Section -->
 <section class="py-16 bg-primary text-white">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Join Our Community?</h2>
-        <p class="text-xl mb-8 max-w-2xl mx-auto opacity-95">Take the first step towards financial empowerment with ELCT ND SACCOS.</p>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Have any question?</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto opacity-95">Our dedicated team is here to assist you with all your banking needs.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#" class="bg-white text-primary-500 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md">Become a Member</a>
-            <a href="{{ route('products') }}" class="border-2 border-white text-white hover:bg-white hover:text-primary-500 font-semibold py-3 px-8 rounded-lg transition-colors duration-200">Explore Products</a>
+            <a href="tel:0800750301" class="bg-white text-primary-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-colors duration-200 shadow-md">
+                Call Now
+            </a>
+            <a href="mailto:info@elctndsaccos.org" class="border-2 border-white text-white hover:bg-white hover:text-primary-500 font-semibold py-4 px-8 rounded-lg transition-colors duration-200">
+                Write us email
+            </a>
+            <a href="{{ route('contact') }}" class="border-2 border-white text-white hover:bg-white hover:text-primary-500 font-semibold py-4 px-8 rounded-lg transition-colors duration-200">
+                Visit anytime
+            </a>
         </div>
     </div>
 </section>
