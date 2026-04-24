@@ -161,3 +161,22 @@ header.sticky {
 .bg-secondary {
     background-color: var(--color-secondary-500);
 }
+
+/* Marquee animation for partners */
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 30s linear infinite;
+}
+
+/* Pause animation on hover */
+.animate-marquee:hover {
+    animation-play-state: paused;
+}
