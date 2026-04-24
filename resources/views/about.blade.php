@@ -12,7 +12,7 @@
 </section>
 
 <!-- About Us Section -->
-<section class="py-16 bg-white">
+<section id="about" class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -52,7 +52,7 @@
 </section>
 
 <!-- Membership Section -->
-<section class="py-16 bg-gray-50">
+<section id="membership" class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Membership</h2>
@@ -94,7 +94,7 @@
 </section>
 
 <!-- Leadership Section -->
-<section class="py-16 bg-white">
+<section id="leadership" class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Leadership</h2>
@@ -151,7 +151,7 @@
 </section>
 
 <!-- Hierarchy Section -->
-<section class="py-16 bg-gray-50">
+<section id="hierarchy" class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Organizational Hierarchy</h2>
@@ -240,7 +240,7 @@
 </section>
 
 <!-- Our Accessibility Section -->
-<section class="py-16 bg-white">
+<section id="accessibility" class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Accessibility</h2>

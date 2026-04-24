@@ -83,17 +83,21 @@
                         </button>
                         <div class="nav-dropdown-menu absolute top-full left-0 mt-2 w-80 bg-white rounded-2xl shadow-2xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-300">
                             <div class="py-4">
-                                <a href="{{ route('about') }}" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
-                                    <div class="font-semibold text-primary-900">Our Story</div>
-                                    <div class="text-xs text-gray-500">Learn about our history and mission</div>
+                                <a href="{{ route('about') }}#membership" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
+                                    <div class="font-semibold text-primary-900">Membership</div>
+                                    <div class="text-xs text-gray-500">Join our growing community</div>
                                 </a>
                                 <a href="{{ route('about') }}#leadership" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
-                                    <div class="font-semibold text-primary-900">Leadership Team</div>
-                                    <div class="text-xs text-gray-500">Meet our dedicated professionals</div>
+                                    <div class="font-semibold text-primary-900">Leadership</div>
+                                    <div class="text-xs text-gray-500">Meet our experienced team</div>
                                 </a>
-                                <a href="{{ route('about') }}#values" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
-                                    <div class="font-semibold text-primary-900">Core Values</div>
-                                    <div class="text-xs text-gray-500">Our guiding principles</div>
+                                <a href="{{ route('about') }}#hierarchy" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
+                                    <div class="font-semibold text-primary-900">Hierarchy</div>
+                                    <div class="text-xs text-gray-500">Our organizational structure</div>
+                                </a>
+                                <a href="{{ route('about') }}#accessibility" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
+                                    <div class="font-semibold text-primary-900">Our Accessibility</div>
+                                    <div class="text-xs text-gray-500">How to reach us anytime</div>
                                 </a>
                             </div>
                         </div>
@@ -296,9 +300,10 @@
                         </svg>
                     </button>
                     <div class="mobile-dropdown-menu hidden pl-4 space-y-1">
-                        <a href="{{ route('about') }}" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Our Story</a>
-                        <a href="{{ route('about') }}#leadership" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Leadership Team</a>
-                        <a href="{{ route('about') }}#values" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Core Values</a>
+                        <a href="{{ route('about') }}#membership" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Membership</a>
+                        <a href="{{ route('about') }}#leadership" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Leadership</a>
+                        <a href="{{ route('about') }}#hierarchy" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Hierarchy</a>
+                        <a href="{{ route('about') }}#accessibility" class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600">Our Accessibility</a>
                     </div>
                 </div>
                 
