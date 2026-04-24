@@ -58,7 +58,7 @@
                         
                         <div class="flex items-center">
                             <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-12 w-auto">
-                            <div class="ml-3">
+                            <div class="ml-6">
                                 <h1 class="text-2xl font-bold text-secondary">ELCT ND SACCOS</h1>
                                 <p class="text-xs text-gray-600">Our unity is our progress</p>
                             </div>
@@ -246,7 +246,7 @@
                 <div class="flex items-center justify-center mb-6">
                     <div class="flex items-center">
                         <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-10 w-auto">
-                        <div class="ml-3">
+                        <div class="ml-4">
                             <h1 class="text-xl font-bold text-secondary">ELCT ND SACCOS</h1>
                             <p class="text-xs text-gray-600">Our unity is our progress</p>
                         </div>
