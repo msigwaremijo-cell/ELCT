@@ -468,10 +468,10 @@
                     </div>
                 </div>
             
-            <!-- Partners Section -->
+            <!-- What They're Talking About Section -->
             <div class="border-t border-gray-800 mt-8 pt-8">
                 <div class="mb-6">
-                    <h3 class="text-lg font-bold mb-6 text-center">Our Partners</h3>
+                    <h3 class="text-lg font-bold mb-6 text-center">What They're Talking About</h3>
                     <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-10 gap-6 items-center justify-center">
                         <img src="{{ asset('images/Footer logos/coasco.png') }}" alt="COASCO" class="h-12 w-auto object-contain">
                         <img src="{{ asset('images/Footer logos/elct.png') }}" alt="ELCT" class="h-12 w-auto object-contain">
@@ -483,6 +483,40 @@
                         <img src="{{ asset('images/Footer logos/tfc.png') }}" alt="TFC" class="h-12 w-auto object-contain">
                         <img src="{{ asset('images/Footer logos/ubx.png') }}" alt="UBX" class="h-12 w-auto object-contain">
                         <img src="{{ asset('images/Footer logos/umoja.png') }}" alt="UMOJA" class="h-12 w-auto object-contain">
+                    </div>
+                </div>
+                
+                <!-- Testimonials Section -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-bold mb-6 text-center">Hear from our satisfied members about their experience with ELCT ND SACCOS</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="bg-gray-800 rounded-lg p-6 text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 14 7 7 0 0114 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <p class="text-gray-300 italic mb-2">"ELCT ND SACCOS has transformed my financial life. The loan processing was quick and the interest rates are very reasonable."</p>
+                            <p class="text-gray-400 text-sm">- John M. Moshi</p>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-6 text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 14 7 7 0 0114 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <p class="text-gray-300 italic mb-2">"The mobile banking app makes it so easy to manage my account from anywhere. Excellent service!"</p>
+                            <p class="text-gray-400 text-sm">- Grace K. Arusha</p>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-6 text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 14 7 7 0 0114 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <p class="text-gray-300 italic mb-2">"I've been a member for 5 years and the dividends have helped me grow my savings significantly."</p>
+                            <p class="text-gray-400 text-sm">- Robert L. Moshi</p>
+                        </div>
                     </div>
                 </div>
                 
