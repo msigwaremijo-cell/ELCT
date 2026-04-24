@@ -223,8 +223,8 @@
             <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
                 <!-- User Image -->
                 <div class="flex flex-col items-center mb-6">
-                    <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-full flex items-center justify-center mb-4 shadow-lg">
-                        <img src="{{ asset('images/Wanachama/joyce.jpg') }}" alt="Joyce K Mushi" class="w-full h-full rounded-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-full flex items-center justify-center mb-4 shadow-lg overflow-hidden">
+                        <img src="{{ asset('images/Wanachama/mama-kuku.png') }}" alt="Joyce K Mushi" class="w-full h-full rounded-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <svg class="w-10 h-10 text-white" style="display:none;" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
                         </svg>
@@ -261,8 +261,8 @@
             <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
                 <!-- User Image -->
                 <div class="flex flex-col items-center mb-6">
-                    <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-full flex items-center justify-center mb-4 shadow-lg">
-                        <img src="{{ asset('images/Wanachama/joe.jpg') }}" alt="Joe N Nkya" class="w-full h-full rounded-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-full flex items-center justify-center mb-4 shadow-lg overflow-hidden">
+                        <img src="{{ asset('images/Wanachama/MWANCHAM1.png') }}" alt="Joe N Nkya" class="w-full h-full rounded-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <svg class="w-10 h-10 text-white" style="display:none;" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
                         </svg>
@@ -299,8 +299,8 @@
             <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
                 <!-- User Image -->
                 <div class="flex flex-col items-center mb-6">
-                    <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-full flex items-center justify-center mb-4 shadow-lg">
-                        <img src="{{ asset('images/Wanachama/prosper.jpg') }}" alt="Prospar Mlay" class="w-full h-full rounded-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-full flex items-center justify-center mb-4 shadow-lg overflow-hidden">
+                        <img src="{{ asset('images/Wanachama/PROPSAR.png') }}" alt="Prospar Mlay" class="w-full h-full rounded-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <svg class="w-10 h-10 text-white" style="display:none;" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
                         </svg>
