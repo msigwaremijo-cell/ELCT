@@ -492,38 +492,6 @@
                 </div>
             </div>
             
-                        
-            <!-- Partners Animation -->
-            <div class="border-t border-gray-800 mt-8 pt-8">
-                <div class="overflow-hidden">
-                    <div class="flex animate-marquee">
-                        <!-- First set of partners -->
-                        <img src="{{ asset('images/Footer logos/coasco.png') }}" alt="COASCO" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/elct.png') }}" alt="ELCT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/kcbl.png') }}" alt="KCBL" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/mocu.png') }}" alt="MoCU" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/nic.png') }}" alt="NIC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/sccult.png') }}" alt="SCCULT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/tcdc.png') }}" alt="TCDC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/tfc.png') }}" alt="TFC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/ubx.png') }}" alt="UBX" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/umoja.png') }}" alt="UMOJA" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        
-                        <!-- Duplicate set for seamless scrolling -->
-                        <img src="{{ asset('images/Footer logos/coasco.png') }}" alt="COASCO" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/elct.png') }}" alt="ELCT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/kcbl.png') }}" alt="KCBL" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/mocu.png') }}" alt="MoCU" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/nic.png') }}" alt="NIC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/sccult.png') }}" alt="SCCULT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/tcdc.png') }}" alt="TCDC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/tfc.png') }}" alt="TFC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/ubx.png') }}" alt="UBX" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                        <img src="{{ asset('images/Footer logos/umoja.png') }}" alt="UMOJA" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
-                    </div>
-                </div>
-            </div>
-            
             <!-- Footer Bottom -->
             <div class="border-t border-gray-800 mt-8 pt-8">
                 <div class="text-center text-sm text-gray-400 space-y-2">
@@ -538,6 +506,39 @@
             </div>
         </div>
     </footer>
+    
+    <!-- Partners Animation Section -->
+    <div class="bg-gray-900 py-6">
+        <div class="container mx-auto px-4">
+            <div class="overflow-hidden">
+                <div class="flex animate-marquee">
+                    <!-- First set of partners -->
+                    <img src="{{ asset('images/Footer logos/coasco.png') }}" alt="COASCO" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/elct.png') }}" alt="ELCT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/kcbl.png') }}" alt="KCBL" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/mocu.png') }}" alt="MoCU" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/nic.png') }}" alt="NIC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/sccult.png') }}" alt="SCCULT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/tcdc.png') }}" alt="TCDC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/tfc.png') }}" alt="TFC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/ubx.png') }}" alt="UBX" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/umoja.png') }}" alt="UMOJA" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    
+                    <!-- Duplicate set for seamless scrolling -->
+                    <img src="{{ asset('images/Footer logos/coasco.png') }}" alt="COASCO" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/elct.png') }}" alt="ELCT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/kcbl.png') }}" alt="KCBL" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/mocu.png') }}" alt="MoCU" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/nic.png') }}" alt="NIC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/sccult.png') }}" alt="SCCULT" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/tcdc.png') }}" alt="TCDC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/tfc.png') }}" alt="TFC" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/ubx.png') }}" alt="UBX" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="{{ asset('images/Footer logos/umoja.png') }}" alt="UMOJA" class="h-12 w-auto object-contain mx-8 opacity-75 hover:opacity-100 transition-opacity">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Mobile menu toggle
