@@ -526,12 +526,12 @@
             
             <!-- Footer Bottom -->
             <div class="border-t border-gray-800 mt-8 pt-8">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-400">
+                <div class="text-center text-sm text-gray-400 space-y-2">
                     <div>
                         <a href="#" class="hover:text-white">Terms</a> | 
                         <a href="#" class="hover:text-white">Our Accessibility</a>
                     </div>
-                    <div class="text-center md:text-right">
+                    <div>
                         &copy; {{ date('Y') }} ELCT ND SACCOS. All Rights Reserved
                     </div>
                 </div>
