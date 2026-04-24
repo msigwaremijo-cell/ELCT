@@ -23,21 +23,23 @@
             <!-- Arusha Main Branch -->
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
-                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-secondary">Arusha Main Branch</h3>
+                    <h3 class="text-2xl font-bold text-secondary">Arusha Main Branch</h3>
                 </div>
                 
-                <div class="space-y-3">
+                <div class="space-y-4">
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
-                        </svg>
+                        <div class="w-8 h-8 bg-gradient-to-br from-primary-100 to-secondary-100 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <svg class="w-6 h-6 text-primary-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4 class="font-semibold text-gray-900">Boma Road, Arusha City</h4>
                             <p class="text-gray-600">P.O. Box 1234, Arusha</p>
@@ -45,10 +47,12 @@
                     </div>
                     
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
-                        </svg>
+                        <div class="w-8 h-8 bg-gradient-to-br from-primary-100 to-secondary-100 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <svg class="w-6 h-6 text-primary-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4 class="font-semibold text-gray-900">Phone</h4>
                             <p class="text-gray-600">+255 27 250 1234</p>

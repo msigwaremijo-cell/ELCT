@@ -64,10 +64,12 @@
                 <nav class="hidden lg:flex items-center space-x-1">
                     <!-- Home -->
                     <a href="{{ route('home') }}" class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
-                        <svg class="w-5 h-5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 9l9-7 9 7"/>
-                        </svg>
+                        <div class="w-7 h-7 mr-3 flex-shrink-0 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center shadow-lg">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 9l9-7 9 7"/>
+                            </svg>
+                        </div>
                         Home
                     </a>
                     
@@ -75,7 +77,7 @@
                     <div class="nav-dropdown relative">
                         <button class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
                             About Us
-                            <svg class="w-5 h-5 ml-2 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 ml-2 flex-shrink-0 text-primary-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
                             </svg>
                         </button>
@@ -100,9 +102,11 @@
                     <!-- Products Dropdown -->
                     <div class="nav-dropdown relative">
                         <button class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
-                            <svg class="w-5 h-5 ml-2 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h10m0 0v10m0-10l-3 3m3-3l3 3"/>
-                            </svg>
+                            <div class="w-7 h-7 ml-2 flex-shrink-0 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center shadow-lg">
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h10m0 0v10m0-10l-3 3m3 3l3 3"/>
+                                </svg>
+                            </div>
                             Our Products
                         </button>
                         <div class="nav-dropdown-menu absolute top-full left-0 mt-2 w-[28rem] bg-white rounded-2xl shadow-2xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-300">
@@ -114,27 +118,33 @@
                                         <div class="space-y-3">
                                             <a href="{{ route('products') }}#savings" class="block group p-3 rounded-lg hover:bg-gradient-to-r from-primary-50 to-secondary-50 transition-all duration-300">
                                                 <div class="flex items-center">
-                                                    <svg class="w-6 h-6 text-primary-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 4h16m-8 0v12m0-12l-3 3m3-3l3 3"/>
-                                                    </svg>
+                                                    <div class="w-8 h-8 mr-3 flex-shrink-0 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center shadow-lg">
+                                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 4h16m-8 0v12m0-12l-3 3m3-3l3 3"/>
+                                                        </svg>
+                                                    </div>
                                                     <div class="font-semibold text-gray-900 group-hover:text-primary-600">Regular Savings</div>
                                                 </div>
                                                 <div class="text-sm text-gray-600">Flexible savings with competitive interest rates</div>
                                             </a>
                                             <a href="{{ route('products') }}#savings" class="block group p-3 rounded-lg hover:bg-gradient-to-r from-primary-50 to-secondary-50 transition-all duration-300">
                                                 <div class="flex items-center">
-                                                    <svg class="w-6 h-6 text-primary-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h14m-7 0v7m0-7l-3 3m3-3l3 3"/>
-                                                    </svg>
+                                                    <div class="w-8 h-8 mr-3 flex-shrink-0 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center shadow-lg">
+                                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h14m-7 0v7m0-7l-3 3m3-3l3 3"/>
+                                                        </svg>
+                                                    </div>
                                                     <div class="font-semibold text-gray-900 group-hover:text-primary-600">Fixed Deposits</div>
                                                 </div>
                                                 <div class="text-sm text-gray-600">Higher returns for fixed terms</div>
                                             </a>
                                             <a href="{{ route('products') }}#savings" class="block group p-3 rounded-lg hover:bg-gradient-to-r from-primary-50 to-secondary-50 transition-all duration-300">
                                                 <div class="flex items-center">
-                                                    <svg class="w-6 h-6 text-primary-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0-4l-3 3m3-3l3 3M9 12h6"/>
-                                                    </svg>
+                                                    <div class="w-8 h-8 mr-3 flex-shrink-0 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center shadow-lg">
+                                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0-4l-3 3m3-3l3 3M9 12h6"/>
+                                                        </svg>
+                                                    </div>
                                                     <div class="font-semibold text-gray-900 group-hover:text-primary-600">Junior Savings</div>
                                                 </div>
                                                 <div class="text-sm text-gray-600">Specially designed for children</div>
@@ -168,9 +178,12 @@
                     <!-- e-Services Dropdown -->
                     <div class="nav-dropdown relative">
                         <button class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
-                            <svg class="w-5 h-5 ml-2 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 18h.01M12 5h.01M8 5h.01M3 12h18"/>
-                            </svg>
+                            <div class="w-7 h-7 ml-2 flex-shrink-0 bg-gradient-to-br from-secondary-500 to-primary-500 rounded-lg flex items-center justify-center shadow-lg">
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12"/>
+                                </svg>
+                            </div>
                             e-Services
                         </button>
                         <div class="nav-dropdown-menu absolute top-full left-0 mt-1 w-96 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-200">
@@ -228,9 +241,11 @@
                     
                     <!-- Contact -->
                     <a href="{{ route('contact') }}" class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
-                        <svg class="w-5 h-5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0l7.89-5.26m0 0l-7.89 5.26a2 2 0 00-2.22 0L3 8m0 0l7.89-5.26a2 2 0 002.22 0L21 8M3 8l7.89 5.26a2 2 0 002.22 0L21 8M3 8l7.89-5.26a2 2 0 002.22 0L21 8"/>
-                        </svg>
+                        <div class="w-7 h-7 mr-2 flex-shrink-0 bg-gradient-to-br from-secondary-500 to-primary-500 rounded-lg flex items-center justify-center shadow-lg">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0l7.89-5.26a2 2 0 002.22 0L3 8m0 0l7.89 5.26a2 2 0 002.22 0L21 8M3 8l7.89 5.26a2 2 0 002.22 0L21 8"/>
+                            </svg>
+                        </div>
                         Contact
                     </a>
                 </nav>
