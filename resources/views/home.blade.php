@@ -21,6 +21,86 @@
     </div>
 </section>
 
+<!-- Hello Section -->
+<section class="py-16 bg-gradient-to-br from-primary-50 to-secondary-50 relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-5">
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #3b82f6 1px, transparent 1px); background-size: 40px 40px;"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center mb-12">
+            <div class="inline-block mb-4">
+                <span class="text-sm font-semibold text-primary-600 tracking-wider uppercase">|| WELCOME TO ELCT ND SACCOS ||</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Hello! We're Here to Help You Grow</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Your trusted financial partner for over 28 years, dedicated to empowering Tanzanian communities through cooperative banking excellence
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Welcome Card 1 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+                <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Member-Centered Approach</h3>
+                <p class="text-gray-600 text-center leading-relaxed">
+                    We put our members first in everything we do. Your financial success is our success, and we're committed to helping you achieve your dreams.
+                </p>
+            </div>
+            
+            <!-- Welcome Card 2 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+                <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 2V2m0 16V2m0 16l-3 3m3-3l3 3"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Financial Empowerment</h3>
+                <p class="text-gray-600 text-center leading-relaxed">
+                    We provide the tools, resources, and support you need to take control of your financial future and build lasting wealth for your family.
+                </p>
+            </div>
+            
+            <!-- Welcome Card 3 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+                <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Community Trust</h3>
+                <p class="text-gray-600 text-center leading-relaxed">
+                    Built on trust, transparency, and mutual respect. We're not just a financial institution – we're your neighbors and partners in growth.
+                </p>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <div class="inline-flex items-center space-x-4 bg-white rounded-full px-8 py-4 shadow-lg border border-gray-100">
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-primary-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                    </svg>
+                    <span class="text-gray-700 font-medium">Call us: 080 075 0301</span>
+                </div>
+                <div class="w-px h-6 bg-gray-300"></div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 text-primary-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                    </svg>
+                    <span class="text-gray-700 font-medium">info@elctndsaccos.org</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Experience Section -->
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
