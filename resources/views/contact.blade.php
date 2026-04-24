@@ -15,12 +15,12 @@
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Branches and Locations</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto text-lg">Find your nearest ELCT ND SACCOS branch for convenient banking services</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Branch Locations</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">Find us at a branch near you. We have 15+ locations across Northern Tanzania.</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Kilimanjaro Region -->
+            <!-- Arusha Main Branch -->
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -28,17 +28,17 @@
                             <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-secondary">Kilimanjaro Region</h3>
+                    <h3 class="text-xl font-bold text-secondary">Arusha Main Branch</h3>
                 </div>
                 
-                <div class="space-y-4">
+                <div class="space-y-3">
                     <div class="flex items-start">
                         <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                         </svg>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Moshi Headquarter</h4>
-                            <p class="text-gray-600">+255 769 116 854</p>
+                            <h4 class="font-semibold text-gray-900">Boma Road, Arusha City</h4>
+                            <p class="text-gray-600">P.O. Box 1234, Arusha</p>
                         </div>
                     </div>
                     
@@ -47,54 +47,19 @@
                             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                         </svg>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Moshi Branch</h4>
-                            <p class="text-gray-600">+255 756 699 333</p>
+                            <h4 class="font-semibold text-gray-900">Phone</h4>
+                            <p class="text-gray-600">+255 27 250 1234</p>
                         </div>
                     </div>
                     
-                    <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                        </svg>
-                        <div>
-                            <h4 class="font-semibold text-gray-900">Hai Branch</h4>
-                            <p class="text-gray-600">+255 752 441 450</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                        </svg>
-                        <div>
-                            <h4 class="font-semibold text-gray-900">Siha Sales Office</h4>
-                            <p class="text-gray-600">+255 752 441 450</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                        </svg>
-                        <div>
-                            <h4 class="font-semibold text-gray-900">Himo Branch</h4>
-                            <p class="text-gray-600">+255 743 906 171</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                        </svg>
-                        <div>
-                            <h4 class="font-semibold text-gray-900">Mwika Sales Office</h4>
-                            <p class="text-gray-600">+255 743 906 171</p>
-                        </div>
+                    <div class="flex space-x-4 mt-4">
+                        <button class="text-primary hover:text-primary-600 font-medium">Get Directions</button>
+                        <button class="text-primary hover:text-primary-600 font-medium">Call Branch</button>
                     </div>
                 </div>
             </div>
 
-            <!-- Arusha Region -->
+            <!-- Moshi Branch -->
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -102,17 +67,17 @@
                             <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-secondary">Arusha Region</h3>
+                    <h3 class="text-xl font-bold text-secondary">Moshi Branch</h3>
                 </div>
                 
-                <div class="space-y-4">
+                <div class="space-y-3">
                     <div class="flex items-start">
                         <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                         </svg>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Arusha Branch</h4>
-                            <p class="text-gray-600">+255 764 921 527</p>
+                            <h4 class="font-semibold text-gray-900">Rindi Lane, Moshi</h4>
+                            <p class="text-gray-600">P.O. Box 5678, Moshi</p>
                         </div>
                     </div>
                     
@@ -121,14 +86,19 @@
                             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                         </svg>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Karatu Branch</h4>
-                            <p class="text-gray-600">+255 717 127 326</p>
+                            <h4 class="font-semibold text-gray-900">Phone</h4>
+                            <p class="text-gray-600">+255 27 275 5678</p>
                         </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 mt-4">
+                        <button class="text-primary hover:text-primary-600 font-medium">Get Directions</button>
+                        <button class="text-primary hover:text-primary-600 font-medium">Call Branch</button>
                     </div>
                 </div>
             </div>
 
-            <!-- Tabora Region -->
+            <!-- Karatu Branch -->
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -136,21 +106,157 @@
                             <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-secondary">Tabora Region</h3>
+                    <h3 class="text-xl font-bold text-secondary">Karatu Branch</h3>
                 </div>
                 
-                <div class="space-y-4">
+                <div class="space-y-3">
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Karatu Town Center</h4>
+                            <p class="text-gray-600">P.O. Box 9012, Karatu</p>
+                        </div>
+                    </div>
+                    
                     <div class="flex items-start">
                         <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                         </svg>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Tabora Branch</h4>
-                            <p class="text-gray-600">+255 752 116 080</p>
+                            <h4 class="font-semibold text-gray-900">Phone</h4>
+                            <p class="text-gray-600">+255 27 253 9012</p>
                         </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 mt-4">
+                        <button class="text-primary hover:text-primary-600 font-medium">Get Directions</button>
+                        <button class="text-primary hover:text-primary-600 font-medium">Call Branch</button>
                     </div>
                 </div>
             </div>
+
+            <!-- Babati Branch -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Babati Branch</h3>
+                </div>
+                
+                <div class="space-y-3">
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Babati Town, Manyara</h4>
+                            <p class="text-gray-600">P.O. Box 3456, Babati</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Phone</h4>
+                            <p class="text-gray-600">+255 27 254 3456</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 mt-4">
+                        <button class="text-primary hover:text-primary-600 font-medium">Get Directions</button>
+                        <button class="text-primary hover:text-primary-600 font-medium">Call Branch</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mbulu Branch -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Mbulu Branch</h3>
+                </div>
+                
+                <div class="space-y-3">
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Mbulu Town Center</h4>
+                            <p class="text-gray-600">P.O. Box 7890, Mbulu</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Phone</h4>
+                            <p class="text-gray-600">+255 27 256 7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 mt-4">
+                        <button class="text-primary hover:text-primary-600 font-medium">Get Directions</button>
+                        <button class="text-primary hover:text-primary-600 font-medium">Call Branch</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ngorongoro Branch -->
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Ngorongoro Branch</h3>
+                </div>
+                
+                <div class="space-y-3">
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Ngorongoro Conservation</h4>
+                            <p class="text-gray-600">P.O. Box 1122, Ngorongoro</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Phone</h4>
+                            <p class="text-gray-600">+255 27 252 1122</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 mt-4">
+                        <button class="text-primary hover:text-primary-600 font-medium">Get Directions</button>
+                        <button class="text-primary hover:text-primary-600 font-medium">Call Branch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <a href="#" class="btn-secondary">View All Branches</a>
         </div>
     </div>
 </section>
