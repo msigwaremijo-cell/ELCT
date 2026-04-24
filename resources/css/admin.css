@@ -1,0 +1,346 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    
+    /* Custom brand colors - same as main site */
+    --color-primary: #aace3e;
+    --color-secondary: #1275b9;
+    --color-primary-50: #f7f9e8;
+    --color-primary-100: #eff3d1;
+    --color-primary-200: #e4e7a3;
+    --color-primary-300: #d9db75;
+    --color-primary-400: #cfcf47;
+    --color-primary-500: #aace3e;
+    --color-primary-600: #8ab532;
+    --color-primary-700: #6a9e28;
+    --color-primary-800: #4d8420;
+    --color-primary-900: #366818;
+    
+    --color-secondary-50: #e8f2fb;
+    --color-secondary-100: #d1e5f7;
+    --color-secondary-200: #a3d1ef;
+    --color-secondary-300: #75bde7;
+    --color-secondary-400: #47a9df;
+    --color-secondary-500: #1275b9;
+    --color-secondary-600: #0e5f94;
+    --color-secondary-700: #0b4a73;
+    --color-secondary-800: #083652;
+    --color-secondary-900: #052231;
+}
+
+/* Admin specific styles */
+.nav-item {
+    @apply transition-all duration-200;
+}
+
+.nav-item:hover {
+    @apply transform translate-x-1;
+}
+
+.nav-group .nav-toggle[aria-expanded="true"] .fa-chevron-down {
+    @apply rotate-180;
+}
+
+.nav-submenu {
+    @apply transition-all duration-200 ease-in-out;
+}
+
+/* Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+}
+
+/* Card hover effects */
+.admin-card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6 transition-all duration-200 hover:shadow-md hover:border-gray-300;
+}
+
+/* Stats cards */
+.stats-card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-200 p-6 transition-all duration-200 hover:shadow-lg;
+}
+
+.stats-card .stats-icon {
+    @apply w-12 h-12 rounded-lg flex items-center justify-center text-white;
+}
+
+.stats-card.primary .stats-icon {
+    @apply bg-gradient-to-br from-primary-500 to-primary-600;
+}
+
+.stats-card.secondary .stats-icon {
+    @apply bg-gradient-to-br from-secondary-500 to-secondary-600;
+}
+
+.stats-card.success .stats-icon {
+    @apply bg-gradient-to-br from-green-500 to-green-600;
+}
+
+.stats-card.warning .stats-icon {
+    @apply bg-gradient-to-br from-yellow-500 to-yellow-600;
+}
+
+.stats-card.danger .stats-icon {
+    @apply bg-gradient-to-br from-red-500 to-red-600;
+}
+
+/* Form styles */
+.admin-form {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+}
+
+.form-group {
+    @apply mb-4;
+}
+
+.form-label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+}
+
+.form-input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors;
+}
+
+.form-textarea {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors resize-vertical;
+}
+
+.form-select {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors bg-white;
+}
+
+.form-checkbox {
+    @apply h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded;
+}
+
+.form-radio {
+    @apply h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300;
+}
+
+/* Button styles */
+.btn {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+}
+
+.btn-secondary {
+    @apply bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500;
+}
+
+.btn-success {
+    @apply bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+}
+
+.btn-danger {
+    @apply bg-red-600 text-white hover:bg-red-700 focus:ring-red-500;
+}
+
+.btn-warning {
+    @apply bg-yellow-600 text-white hover:bg-yellow-700 focus:ring-yellow-500;
+}
+
+.btn-outline-primary {
+    @apply border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white focus:ring-primary-500;
+}
+
+.btn-outline-secondary {
+    @apply border-secondary-600 text-secondary-600 hover:bg-secondary-600 hover:text-white focus:ring-secondary-500;
+}
+
+.btn-outline-gray {
+    @apply border-gray-300 text-gray-700 bg-white hover:bg-gray-50 focus:ring-primary-500;
+}
+
+.btn-sm {
+    @apply px-3 py-1.5 text-xs;
+}
+
+.btn-lg {
+    @apply px-6 py-3 text-base;
+}
+
+/* Table styles */
+.admin-table {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden;
+}
+
+.admin-table thead {
+    @apply bg-gray-50 border-b border-gray-200;
+}
+
+.admin-table th {
+    @apply px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.admin-table td {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-gray-900 border-b border-gray-100;
+}
+
+.admin-table tbody tr:hover {
+    @apply bg-gray-50;
+}
+
+/* Badge styles */
+.badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-primary {
+    @apply bg-primary-100 text-primary-800;
+}
+
+.badge-secondary {
+    @apply bg-secondary-100 text-secondary-800;
+}
+
+.badge-success {
+    @apply bg-green-100 text-green-800;
+}
+
+.badge-warning {
+    @apply bg-yellow-100 text-yellow-800;
+}
+
+.badge-danger {
+    @apply bg-red-100 text-red-800;
+}
+
+.badge-gray {
+    @apply bg-gray-100 text-gray-800;
+}
+
+/* Modal styles */
+.modal-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4;
+}
+
+.modal-content {
+    @apply bg-white rounded-lg shadow-xl max-w-md w-full max-h-screen overflow-y-auto;
+}
+
+.modal-header {
+    @apply px-6 py-4 border-b border-gray-200;
+}
+
+.modal-body {
+    @apply px-6 py-4;
+}
+
+.modal-footer {
+    @apply px-6 py-4 border-t border-gray-200 bg-gray-50 rounded-b-lg;
+}
+
+/* Loading spinner */
+.spinner {
+    @apply animate-spin;
+}
+
+/* Mobile menu transitions */
+.mobile-menu-enter {
+    @apply transform translate-x-0;
+}
+
+.mobile-menu-leave {
+    @apply transform -translate-x-full;
+}
+
+/* Dropdown animations */
+.dropdown-enter {
+    @apply opacity-0 transform scale-95;
+}
+
+.dropdown-enter-active {
+    @apply opacity-100 transform scale-100 transition-all duration-200 ease-out;
+}
+
+.dropdown-leave {
+    @apply opacity-100 transform scale-100;
+}
+
+.dropdown-leave-active {
+    @apply opacity-0 transform scale-95 transition-all duration-200 ease-in;
+}
+
+/* Chart container */
+.chart-container {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+}
+
+/* Activity feed */
+.activity-item {
+    @apply flex items-start space-x-3 p-4 hover:bg-gray-50 transition-colors;
+}
+
+.activity-icon {
+    @apply flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center;
+}
+
+/* File upload area */
+.file-upload-area {
+    @apply border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-gray-400 transition-colors cursor-pointer;
+}
+
+.file-upload-area.dragover {
+    @apply border-primary-500 bg-primary-50;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .admin-card {
+        @apply p-4;
+    }
+    
+    .stats-card {
+        @apply p-4;
+    }
+    
+    .admin-table {
+        @apply text-xs;
+    }
+    
+    .admin-table th,
+    .admin-table td {
+        @apply px-3 py-2;
+    }
+}
+
+/* Dark mode support (optional) */
+@media (prefers-color-scheme: dark) {
+    .dark-mode {
+        @apply bg-gray-900 text-gray-100;
+    }
+    
+    .dark-mode .admin-card,
+    .dark-mode .stats-card,
+    .dark-mode .admin-table,
+    .dark-mode .admin-form {
+        @apply bg-gray-800 border-gray-700;
+    }
+    
+    .dark-mode .form-input,
+    .dark-mode .form-textarea,
+    .dark-mode .form-select {
+        @apply bg-gray-700 border-gray-600 text-gray-100;
+    }
+}

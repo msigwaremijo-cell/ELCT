@@ -11,30 +11,30 @@
     </div>
 </section>
 
-<!-- Our Story Section -->
+<!-- About Us Section -->
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 class="text-3xl font-bold mb-6 text-secondary">Our Story</h2>
+                <h2 class="text-3xl font-bold mb-6 text-secondary">About ELCT ND SACCOS</h2>
                 <p class="text-gray-600 mb-4">
-                    ELCT ND SACCOS was established in 1995 as part of the Evangelical Lutheran Church in Tanzania - Northern Diocese's vision to provide financial empowerment to its members and the surrounding community. What started as a small savings and credit cooperative has grown into a leading financial institution serving over 10,000 members across the Northern regions of Tanzania.
+                    ELCT ND SACCOS is a premier financial cooperative institution established under the Evangelical Lutheran Church in Tanzania - Northern Diocese. With over 28 years of excellence in financial services, we have grown to become one of the most trusted SACCOS in Tanzania, serving thousands of members across multiple regions.
                 </p>
                 <p class="text-gray-600 mb-4">
-                    Our journey has been marked by steady growth, innovation, and unwavering commitment to our members' financial well-being. We've evolved from traditional banking services to include modern digital solutions while maintaining the cooperative values that define us.
+                    Our institution is built on the foundation of cooperative principles, combining traditional values with modern banking technology to deliver exceptional financial solutions. We are committed to empowering our members through accessible, affordable, and sustainable financial services.
                 </p>
                 <p class="text-gray-600">
-                    Today, we stand as a testament to what can be achieved when people come together with a common purpose of mutual prosperity and community development.
+                    As a regulated financial institution, we operate under the Cooperative Societies Act 2013 and the Microfinance Act 2018, ensuring compliance with all regulatory requirements while maintaining our member-focused approach.
                 </p>
             </div>
-            <div class="bg-gray-100 rounded-lg p-8">
+            <div class="bg-gradient-to-br from-primary-50 to-secondary-50 rounded-lg p-8">
                 <div class="grid grid-cols-2 gap-6">
                     <div class="text-center">
-                        <div class="text-3xl font-bold text-primary mb-2">1995</div>
-                        <div class="text-gray-600">Year Established</div>
+                        <div class="text-3xl font-bold text-primary mb-2">28+</div>
+                        <div class="text-gray-600">Years of Excellence</div>
                     </div>
                     <div class="text-center">
-                        <div class="text-3xl font-bold text-primary mb-2">10,000+</div>
+                        <div class="text-3xl font-bold text-primary mb-2">10,247+</div>
                         <div class="text-gray-600">Active Members</div>
                     </div>
                     <div class="text-center">
@@ -42,8 +42,8 @@
                         <div class="text-gray-600">Branch Locations</div>
                     </div>
                     <div class="text-center">
-                        <div class="text-3xl font-bold text-primary mb-2">$50M+</div>
-                        <div class="text-gray-600">Total Assets</div>
+                        <div class="text-3xl font-bold text-primary mb-2">3,842+</div>
+                        <div class="text-gray-600">Active Loans</div>
                     </div>
                 </div>
             </div>
@@ -51,137 +51,286 @@
     </div>
 </section>
 
-<!-- Mission & Vision -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <!-- Mission -->
-            <div class="bg-white p-8 rounded-lg shadow-lg">
-                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg class="w-8 h-8 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
-                    </svg>
-                </div>
-                <h3 class="text-2xl font-bold mb-4 text-secondary text-center">Our Mission</h3>
-                <p class="text-gray-600 text-center">
-                    To provide exceptional financial services that empower our members to achieve their dreams, while fostering sustainable community development through cooperative banking principles.
-                </p>
-            </div>
-            
-            <!-- Vision -->
-            <div class="bg-white p-8 rounded-lg shadow-lg">
-                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg class="w-8 h-8 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
-                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
-                    </svg>
-                </div>
-                <h3 class="text-2xl font-bold mb-4 text-secondary text-center">Our Vision</h3>
-                <p class="text-gray-600 text-center">
-                    To be the leading cooperative financial institution in Tanzania, recognized for our innovation, member satisfaction, and positive impact on community development.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Core Values -->
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Core Values</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">The principles that guide everything we do and define who we are as an organization.</p>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="text-center">
-                <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-10 h-10 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold mb-2 text-secondary">Integrity</h3>
-                <p class="text-gray-600 text-sm">We conduct our business with honesty, transparency, and ethical principles.</p>
-            </div>
-            
-            <div class="text-center">
-                <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-10 h-10 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold mb-2 text-secondary">Community</h3>
-                <p class="text-gray-600 text-sm">We believe in the power of unity and collective growth.</p>
-            </div>
-            
-            <div class="text-center">
-                <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-10 h-10 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold mb-2 text-secondary">Excellence</h3>
-                <p class="text-gray-600 text-sm">We strive for excellence in everything we do, from service delivery to innovation.</p>
-            </div>
-            
-            <div class="text-center">
-                <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-10 h-10 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold mb-2 text-secondary">Care</h3>
-                <p class="text-gray-600 text-sm">We genuinely care about our members' financial well-being and success.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Leadership Team -->
+<!-- Membership Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Leadership Team</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">Meet the dedicated professionals leading ELCT ND SACCOS toward a brighter future.</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Membership</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Join our growing community of empowered members and access comprehensive financial solutions.</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
-                <div class="bg-secondary h-48 flex items-center justify-center">
-                    <svg class="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
-                    </svg>
+            <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-users text-primary-500 text-2xl"></i>
                 </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold mb-2 text-secondary">Rev. Dr. John M. Kimaro</h3>
-                    <p class="text-primary font-medium mb-2">Chairman</p>
-                    <p class="text-gray-600 text-sm">With over 20 years of experience in cooperative leadership and community development.</p>
+                <h3 class="text-xl font-semibold mb-3 text-secondary text-center">Who Can Join</h3>
+                <p class="text-gray-600 text-center">
+                    ELCT ND SACCOS membership is open to Entrepreneurs, Businessmen, and all employees from the United Republic of Tanzania who share our vision of financial empowerment.
+                </p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-hand-holding-usd text-primary-500 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-3 text-secondary text-center">Membership Benefits</h3>
+                <p class="text-gray-600 text-center">
+                    Access to affordable loans, competitive savings rates, financial advisory services, and participation in cooperative decision-making processes.
+                </p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-shield-alt text-primary-500 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-3 text-secondary text-center">Secure & Regulated</h3>
+                <p class="text-gray-600 text-center">
+                    Fully regulated under Tanzanian law, member deposits are protected, and operations are transparent with regular audits and reporting.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Leadership Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Leadership</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Meet our experienced leadership team committed to excellence and member satisfaction.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gradient-to-br from-secondary-500 to-primary-500 rounded-lg p-6 text-white">
+                <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-user-tie text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2 text-center">Board of Directors</h3>
+                <p class="text-white/90 text-center mb-4">
+                    Led by experienced professionals with diverse backgrounds in finance, business, and community development.
+                </p>
+                <ul class="text-sm space-y-2">
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Strategic Oversight</li>
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Policy Development</li>
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Risk Management</li>
+                </ul>
+            </div>
+            
+            <div class="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg p-6 text-white">
+                <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-briefcase text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2 text-center">Management Team</h3>
+                <p class="text-white/90 text-center mb-4">
+                    Professional management team with extensive experience in banking, finance, and cooperative operations.
+                </p>
+                <ul class="text-sm space-y-2">
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Daily Operations</li>
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Service Delivery</li>
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Innovation & Technology</li>
+                </ul>
+            </div>
+            
+            <div class="bg-gradient-to-br from-secondary-500 to-primary-500 rounded-lg p-6 text-white">
+                <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-users-cog text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2 text-center">Committee Members</h3>
+                <p class="text-white/90 text-center mb-4">
+                    Dedicated committees ensuring transparency, accountability, and member representation in all decisions.
+                </p>
+                <ul class="text-sm space-y-2">
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Audit & Compliance</li>
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Credit Committee</li>
+                    <li class="flex items-center"><i class="fas fa-check mr-2"></i>Member Relations</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hierarchy Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Organizational Hierarchy</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Our structured approach ensures efficient operations and member-focused decision making.</p>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-lg p-8">
+            <div class="space-y-6">
+                <!-- Top Level -->
+                <div class="text-center">
+                    <div class="inline-block bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-6 py-3 rounded-lg font-semibold">
+                        Annual General Meeting (AGM)
+                    </div>
+                    <p class="text-gray-600 mt-2">Supreme Authority - All Members</p>
+                </div>
+                
+                <div class="flex justify-center">
+                    <div class="w-1 h-8 bg-gray-300"></div>
+                </div>
+                
+                <!-- Second Level -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                    <div class="text-center">
+                        <div class="bg-primary-100 text-primary-700 px-4 py-2 rounded-lg font-semibold">
+                            Board of Directors
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1">Elected by Members</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-secondary-100 text-secondary-700 px-4 py-2 rounded-lg font-semibold">
+                            Supervisory Committee
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1">Member Oversight</p>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center">
+                    <div class="w-1 h-8 bg-gray-300"></div>
+                </div>
+                
+                <!-- Third Level -->
+                <div class="text-center">
+                    <div class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg font-semibold">
+                        Management Team
+                    </div>
+                    <p class="text-gray-600 mt-2">CEO, Department Heads, Branch Managers</p>
+                </div>
+                
+                <div class="flex justify-center">
+                    <div class="w-1 h-8 bg-gray-300"></div>
+                </div>
+                
+                <!-- Fourth Level -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+                    <div class="text-center">
+                        <div class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-semibold">
+                            Operations
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-semibold">
+                            Finance & Admin
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-semibold">
+                            Member Services
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center">
+                    <div class="w-1 h-8 bg-gray-300"></div>
+                </div>
+                
+                <!-- Base Level -->
+                <div class="text-center">
+                    <div class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg font-semibold">
+                        Staff Members & Branch Operations
+                    </div>
+                    <p class="text-gray-600 mt-2">Frontline Service Delivery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Accessibility Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Accessibility</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">We're committed to making our services accessible to all members across Tanzania.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-map-marker-alt text-primary-500"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-secondary">Physical Locations</h3>
+                        <p class="text-gray-600">15+ strategically located branches across Northern Tanzania with extended business hours and weekend services at select locations.</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-mobile-alt text-primary-500"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-secondary">Digital Banking</h3>
+                        <p class="text-gray-600">24/7 access through our mobile app, USSD services (*150*45#), and online banking platform for convenient transactions anytime, anywhere.</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-headset text-primary-500"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-secondary">Customer Support</h3>
+                        <p class="text-gray-600">Dedicated customer service team available via phone, email, and social media to assist with all your banking needs.</p>
+                    </div>
                 </div>
             </div>
             
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
-                <div class="bg-secondary h-48 flex items-center justify-center">
-                    <svg class="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
-                    </svg>
+            <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-secondary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-universal-access text-secondary-500"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-secondary">Inclusive Services</h3>
+                        <p class="text-gray-600">Wheelchair-accessible branches, simplified documentation processes, and services designed for all members including elderly and differently-abled individuals.</p>
+                    </div>
                 </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold mb-2 text-secondary">Ms. Grace L. Mwangi</h3>
-                    <p class="text-primary font-medium mb-2">CEO / General Manager</p>
-                    <p class="text-gray-600 text-sm">Expert in financial management with 15+ years of experience in banking and microfinance.</p>
+                
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-secondary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-language text-secondary-500"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-secondary">Multi-Language Support</h3>
+                        <p class="text-gray-600">Services available in Swahili, English, and local languages to ensure clear communication with all our members.</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 bg-secondary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-clock text-secondary-500"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-secondary">Flexible Hours</h3>
+                        <p class="text-gray-600">Extended banking hours, weekend services, and emergency support to accommodate our members' diverse schedules and needs.</p>
+                    </div>
                 </div>
             </div>
-            
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
-                <div class="bg-secondary h-48 flex items-center justify-center">
-                    <svg class="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
-                    </svg>
+        </div>
+        
+        <!-- Contact Information -->
+        <div class="mt-12 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg p-8 text-white text-center">
+            <h3 class="text-2xl font-bold mb-4">Get in Touch</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+                <div>
+                    <i class="fas fa-phone text-2xl mb-2"></i>
+                    <p class="font-semibold">Call Us</p>
+                    <p>080 075 0301</p>
                 </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold mb-2 text-secondary">Mr. Joseph K. Nyerere</h3>
-                    <p class="text-primary font-medium mb-2">Finance Director</p>
-                    <p class="text-gray-600 text-sm">Certified accountant with extensive experience in cooperative finance management.</p>
+                <div>
+                    <i class="fas fa-envelope text-2xl mb-2"></i>
+                    <p class="font-semibold">Email</p>
+                    <p>info@elctndsaccos.org</p>
+                </div>
+                <div>
+                    <i class="fas fa-clock text-2xl mb-2"></i>
+                    <p class="font-semibold">Business Hours</p>
+                    <p>Mon-Fri: 8:30am-4:30pm</p>
                 </div>
             </div>
         </div>
