@@ -55,12 +55,13 @@
                 <!-- Logo Area -->
                 <div class="flex items-center">
                     <div class="flex-shrink-0 flex items-center">
-                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-3">
-                            <span class="text-white font-bold text-xl">EL</span>
-                        </div>
-                        <div>
-                            <img src="{{ asset('images/elct-logo.png') }}" alt="ELCT ND SACCOS" class="h-12 w-auto">
-                            <p class="text-xs text-gray-600 mt-1">SACCOS</p>
+                        
+                        <div class="flex items-center">
+                            <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-12 w-auto">
+                            <div class="ml-3">
+                                <h1 class="text-2xl font-bold text-secondary">ELCT ND SACCOS</h1>
+                                <p class="text-xs text-gray-600">Empowering Financial Growth</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -243,7 +244,13 @@
             <div class="container mx-auto px-4 py-4">
                 <!-- Mobile Logo -->
                 <div class="flex items-center justify-center mb-6">
-                    <img src="{{ asset('images/elct-logo.png') }}" alt="ELCT ND SACCOS" class="h-10 w-auto">
+                    <div class="flex items-center">
+                        <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-10 w-auto">
+                        <div class="ml-3">
+                            <h1 class="text-xl font-bold text-secondary">ELCT ND SACCOS</h1>
+                            <p class="text-xs text-gray-600">Empowering Financial Growth</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="space-y-2">
                 <!-- Mobile Navigation Links -->
