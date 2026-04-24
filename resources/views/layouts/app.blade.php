@@ -48,10 +48,13 @@
                     <div class="flex-shrink-0 flex items-center">
                         
                         <div class="flex items-center">
-                            <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-12 w-auto">
-                            <div class="ml-6">
-                                <h1 class="text-2xl font-bold text-secondary">ELCT ND SACCOS</h1>
-                                <p class="text-xs text-gray-600">Our unity is our progress</p>
+                            <div class="relative">
+                                <img src="{{ asset('images/Logo new.png') }}" alt="ELCT ND SACCOS" class="h-14 w-auto drop-shadow-md">
+                                <div class="absolute inset-0 bg-gradient-to-r from-primary/5 to-transparent pointer-events-none" aria-hidden="true"></div>
+                            </div>
+                            <div class="ml-8">
+                                <h1 class="text-3xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">ELCT ND SACCOS</h1>
+                                <p class="text-sm text-gray-600 font-medium tracking-wide">Our unity is our progress</p>
                             </div>
                         </div>
                     </div>
@@ -60,30 +63,33 @@
                 <!-- Main Navigation -->
                 <nav class="hidden lg:flex items-center space-x-1">
                     <!-- Home -->
-                    <a href="{{ route('home') }}" class="nav-item text-gray-900 hover:text-secondary px-4 py-2 text-sm font-semibold rounded-lg hover:bg-gray-50 transition-all duration-200 flex items-center">
+                    <a href="{{ route('home') }}" class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10.707 2.293a1 1 0 00-1.414 1.414l-9 9a1 1 0 01-1.414 0l9 9a1 1 0 001.414 0z"/>
+                        </svg>
                         Home
                     </a>
                     
                     <!-- About Dropdown -->
                     <div class="nav-dropdown relative">
-                        <button class="nav-item text-gray-900 hover:text-secondary px-4 py-2 text-sm font-semibold rounded-lg hover:bg-gray-50 transition-all duration-200 flex items-center">
+                        <button class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
                             About Us
-                            <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
                             </svg>
                         </button>
-                        <div class="nav-dropdown-menu absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-200">
-                            <div class="py-2">
-                                <a href="{{ route('about') }}" class="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">
-                                    <div class="font-medium">Our Story</div>
+                        <div class="nav-dropdown-menu absolute top-full left-0 mt-2 w-80 bg-white rounded-2xl shadow-2xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-300">
+                            <div class="py-4">
+                                <a href="{{ route('about') }}" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
+                                    <div class="font-semibold text-primary-900">Our Story</div>
                                     <div class="text-xs text-gray-500">Learn about our history and mission</div>
                                 </a>
-                                <a href="{{ route('about') }}#leadership" class="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">
-                                    <div class="font-medium">Leadership Team</div>
+                                <a href="{{ route('about') }}#leadership" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
+                                    <div class="font-semibold text-primary-900">Leadership Team</div>
                                     <div class="text-xs text-gray-500">Meet our dedicated professionals</div>
                                 </a>
-                                <a href="{{ route('about') }}#values" class="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">
-                                    <div class="font-medium">Core Values</div>
+                                <a href="{{ route('about') }}#values" class="block px-5 py-4 text-sm text-gray-700 hover:bg-gradient-to-r from-primary-50 to-secondary-50 hover:text-primary-700 transition-all duration-300 rounded-lg">
+                                    <div class="font-semibold text-primary-900">Core Values</div>
                                     <div class="text-xs text-gray-500">Our guiding principles</div>
                                 </a>
                             </div>
@@ -92,30 +98,45 @@
                     
                     <!-- Products Dropdown -->
                     <div class="nav-dropdown relative">
-                        <button class="nav-item text-gray-900 hover:text-secondary px-4 py-2 text-sm font-semibold rounded-lg hover:bg-gray-50 transition-all duration-200 flex items-center">
-                            Our Products
-                            <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                        <button class="nav-item text-gray-900 hover:text-secondary px-5 py-3 text-sm font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center shadow-sm hover:shadow-md">
+                            <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10.707 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
                             </svg>
+                            Our Products
                         </button>
-                        <div class="nav-dropdown-menu absolute top-full left-0 mt-1 w-96 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-200">
-                            <div class="p-6">
-                                <div class="grid grid-cols-2 gap-8">
-                                    <!-- Savings Column -->
+                        <div class="nav-dropdown-menu absolute top-full left-0 mt-2 w-[28rem] bg-white rounded-2xl shadow-2xl border border-gray-100 opacity-0 invisible transform scale-95 transition-all duration-300">
+                            <div class="p-8">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <!-- Savings & Share Capital -->
                                     <div>
-                                        <h3 class="text-sm font-bold text-gray-900 mb-4 uppercase tracking-wider">Savings</h3>
+                                        <h3 class="text-lg font-bold text-gray-900 mb-4 uppercase tracking-wider">Savings & Investments</h3>
                                         <div class="space-y-3">
-                                            <a href="{{ route('products') }}#savings" class="block group">
-                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Regular Savings</div>
-                                                <div class="text-xs text-gray-500">Flexible savings with 5% interest</div>
+                                            <a href="{{ route('products') }}#savings" class="block group p-3 rounded-lg hover:bg-gradient-to-r from-primary-50 to-secondary-50 transition-all duration-300">
+                                                <div class="flex items-center">
+                                                    <svg class="w-6 h-6 text-primary-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M4 4a2 2 0 00-2 2v1a1 1 0 112 2h12a1 1 0 012-2V6a2 2 0 01-2-2z"/>
+                                                    </svg>
+                                                    <div class="font-semibold text-gray-900 group-hover:text-primary-600">Regular Savings</div>
+                                                </div>
+                                                <div class="text-sm text-gray-600">Flexible savings with competitive interest rates</div>
                                             </a>
-                                            <a href="{{ route('products') }}#savings" class="block group">
-                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Fixed Deposits</div>
-                                                <div class="text-xs text-gray-500">Higher returns for fixed terms</div>
+                                            <a href="{{ route('products') }}#savings" class="block group p-3 rounded-lg hover:bg-gradient-to-r from-primary-50 to-secondary-50 transition-all duration-300">
+                                                <div class="flex items-center">
+                                                    <svg class="w-6 h-6 text-primary-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                                                    </svg>
+                                                    <div class="font-semibold text-gray-900 group-hover:text-primary-600">Fixed Deposits</div>
+                                                </div>
+                                                <div class="text-sm text-gray-600">Higher returns for fixed terms</div>
                                             </a>
-                                            <a href="{{ route('products') }}#savings" class="block group">
-                                                <div class="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">Junior Savings</div>
-                                                <div class="text-xs text-gray-500">Specially for children</div>
+                                            <a href="{{ route('products') }}#savings" class="block group p-3 rounded-lg hover:bg-gradient-to-r from-primary-50 to-secondary-50 transition-all duration-300">
+                                                <div class="flex items-center">
+                                                    <svg class="w-6 h-6 text-primary-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M10 9a2 2 0 100-4 2v2a2 2 0 004 0h4a2 2 0 004 0v-2a2 2 0 00-4 0z"/>
+                                                    </svg>
+                                                    <div class="font-semibold text-gray-900 group-hover:text-primary-600">Junior Savings</div>
+                                                </div>
+                                                <div class="text-sm text-gray-600">Specially designed for children</div>
                                             </a>
                                         </div>
                                     </div>
