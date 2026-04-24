@@ -416,6 +416,113 @@
     </div>
 </section>
 
+<!-- Hello Section 2 - Services & Benefits -->
+<section class="py-20 bg-white relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-3">
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, #10b981 1px, transparent 1px); background-size: 60px 60px;"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center mb-16">
+            <div class="inline-block mb-4">
+                <span class="text-sm font-semibold text-secondary-600 tracking-wider uppercase">|| DISCOVER OUR EXCELLENCE ||</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Hello! Experience Banking That Cares</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Join thousands of Tanzanians who have transformed their financial lives through our cooperative banking excellence and personalized service
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Content -->
+            <div>
+                <div class="space-y-8">
+                    <!-- Service Feature 1 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Quick Loan Processing</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Get fast access to funds when you need them most. Our streamlined loan approval process ensures you receive financial support within 24-48 hours.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service Feature 2 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Secure Banking</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Your money is safe with us. We use advanced security measures and are regulated by Tanzanian authorities to ensure complete protection of your funds.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service Feature 3 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Member Community</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Join a thriving community of over 10,000 members. Share experiences, learn from others, and grow together with fellow Tanzanians.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Content - Stats & CTA -->
+            <div class="space-y-8">
+                <!-- Stats Cards -->
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-primary-50 to-secondary-50 rounded-xl p-6 text-center border border-gray-100">
+                        <div class="text-3xl md:text-4xl font-bold text-primary-600 mb-2">10,000+</div>
+                        <p class="text-gray-700 font-medium">Happy Members</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 text-center border border-gray-100">
+                        <div class="text-3xl md:text-4xl font-bold text-green-600 mb-2">15+</div>
+                        <p class="text-gray-700 font-medium">Branch Locations</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 text-center border border-gray-100">
+                        <div class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">24/7</div>
+                        <p class="text-gray-700 font-medium">Digital Access</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 text-center border border-gray-100">
+                        <div class="text-3xl md:text-4xl font-bold text-purple-600 mb-2">98%</div>
+                        <p class="text-gray-700 font-medium">Satisfaction Rate</p>
+                    </div>
+                </div>
+                
+                <!-- Join CTA -->
+                <div class="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-2xl p-8 text-white text-center shadow-xl">
+                    <h3 class="text-2xl font-bold mb-4">Ready to Start Your Journey?</h3>
+                    <p class="text-lg mb-6 opacity-95">
+                        Join ELCT ND SACCOS today and experience the difference of cooperative banking excellence
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="{{ route('contact') }}" class="bg-white text-primary-600 hover:bg-gray-100 font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-md">Join Now</a>
+                        <a href="{{ route('products') }}" class="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-semibold py-3 px-6 rounded-lg transition-colors duration-200">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- CTA Section -->
 <section class="py-16 bg-primary text-white">
     <div class="container mx-auto px-4 text-center">
