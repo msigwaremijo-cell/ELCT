@@ -21,85 +21,6 @@
     </div>
 </section>
 
-<!-- Hello Section -->
-<section class="py-16 bg-gradient-to-br from-primary-50 to-secondary-50 relative overflow-hidden">
-    <!-- Background Pattern -->
-    <div class="absolute inset-0 opacity-5">
-        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #3b82f6 1px, transparent 1px); background-size: 40px 40px;"></div>
-    </div>
-    
-    <div class="container mx-auto px-4 relative z-10">
-        <div class="text-center mb-12">
-            <div class="inline-block mb-4">
-                <span class="text-sm font-semibold text-primary-600 tracking-wider uppercase">|| WELCOME TO ELCT ND SACCOS ||</span>
-            </div>
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Hello! We're Here to Help You Grow</h2>
-            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Your trusted financial partner for over 28 years, dedicated to empowering Tanzanian communities through cooperative banking excellence
-            </p>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Welcome Card 1 -->
-            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
-                <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Member-Centered Approach</h3>
-                <p class="text-gray-600 text-center leading-relaxed">
-                    We put our members first in everything we do. Your financial success is our success, and we're committed to helping you achieve your dreams.
-                </p>
-            </div>
-            
-            <!-- Welcome Card 2 -->
-            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
-                <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 2V2m0 16V2m0 16l-3 3m3-3l3 3"/>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Financial Empowerment</h3>
-                <p class="text-gray-600 text-center leading-relaxed">
-                    We provide the tools, resources, and support you need to take control of your financial future and build lasting wealth for your family.
-                </p>
-            </div>
-            
-            <!-- Welcome Card 3 -->
-            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
-                <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Community Trust</h3>
-                <p class="text-gray-600 text-center leading-relaxed">
-                    Built on trust, transparency, and mutual respect. We're not just a financial institution – we're your neighbors and partners in growth.
-                </p>
-            </div>
-        </div>
-        
-        <div class="text-center mt-12">
-            <div class="inline-flex items-center space-x-4 bg-white rounded-full px-8 py-4 shadow-lg border border-gray-100">
-                <div class="flex items-center">
-                    <svg class="w-5 h-5 text-primary-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                    </svg>
-                    <span class="text-gray-700 font-medium">Call us: 080 075 0301</span>
-                </div>
-                <div class="w-px h-6 bg-gray-300"></div>
-                <div class="flex items-center">
-                    <svg class="w-5 h-5 text-primary-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                    </svg>
-                    <span class="text-gray-700 font-medium">info@elctndsaccos.org</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Experience Section -->
 <section class="py-16 bg-white">
@@ -517,6 +438,162 @@
                         <a href="{{ route('contact') }}" class="bg-white text-primary-600 hover:bg-gray-100 font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-md">Join Now</a>
                         <a href="{{ route('products') }}" class="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-semibold py-3 px-6 rounded-lg transition-colors duration-200">Learn More</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Comprehensive Services Section -->
+<section class="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-5">
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #3b82f6 1px, transparent 1px); background-size: 40px 40px;"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <!-- Services Overview -->
+        <div class="text-center mb-16">
+            <div class="inline-block mb-4">
+                <span class="text-sm font-semibold text-primary-600 tracking-wider uppercase">|| OUR SERVICES ||</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Membership & Services</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Comprehensive financial solutions designed to meet your personal and business needs
+            </p>
+        </div>
+        
+        <!-- Service Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <!-- Membership -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+                <div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Membership</h3>
+                <p class="text-gray-600 text-center leading-relaxed">
+                    ELCT ND SACCOS membership are an Entrepreneur, Businessman and all employees from the United Republic of Tanzania.
+                </p>
+            </div>
+            
+            <!-- Savings and Deposits -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+                <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Savings and Deposits</h3>
+                <p class="text-gray-600 text-center leading-relaxed">
+                    ELCT ND SACCOS allows her Members to pay for SHARE, make regular SAVINGS and DEPOSITS at their convenient.
+                </p>
+            </div>
+            
+            <!-- Loans -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100">
+                <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 2V2m0 16V2m0 16l-3 3m3-3l3 3"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Loans</h3>
+                <p class="text-gray-600 text-center leading-relaxed">
+                    ELCT ND SACCOS gives and issue loans to her Members in affordable interest rate in order to fulfill their financial needs and not for profits.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Experience Highlight -->
+        <div class="text-center mb-16">
+            <div class="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full shadow-xl mb-6">
+                <div class="text-white">
+                    <div class="text-4xl font-bold">28+</div>
+                    <div class="text-sm font-medium">Years Experience</div>
+                </div>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">ELCT ND SACCOS</h2>
+        </div>
+        
+        <!-- Why Join Section -->
+        <div class="bg-white rounded-3xl shadow-xl p-12 border border-gray-100 mb-16">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">WHY SHOULD YOU JOIN ELCT ND SACCOS?</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="w-8 h-8 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">
+                            ELCT ND SACCOS is owned by Members and all the decision of operations are made from the Annual General Meeting (AGM).
+                        </p>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">
+                            ELCT ND SACCOS is regulated and audited in accordance with the Cooperative Society Act 2013 and Microfinance Act 2018.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 2V2m0 16V2m0 16l-3 3m3-3l3 3"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">
+                            ELCT ND SACCOS is not for profit making, it work on members financial needs, and gives dividends to members from the profits generated per year.
+                        </p>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">
+                            Distance is not a barrier, ELCT ND SACCOS has digitalized her services. Members can transact to their convenience with ATM Card and Mobile (App & USSD - *150*45#).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Best SACCOS Section -->
+        <div class="text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">ELCT ND SACCOS</h2>
+            <h3 class="text-2xl md:text-3xl font-bold text-primary-600 mb-8">Is the BEST SACCOS to join</h3>
+            
+            <div class="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-3xl p-12 text-white shadow-xl">
+                <h3 class="text-2xl font-bold mb-4">Become a Member</h3>
+                <p class="text-lg mb-8 opacity-95">
+                    Giving everyone an opportunity - to achieve financial security.
+                </p>
+                <p class="text-lg mb-8 leading-relaxed max-w-4xl mx-auto">
+                    People in the United Republic of Tanzania are hard working and have dreams to fulfill in life. In their course of their work, they need a financial partner and friend who supports them to save, invest and grow - in pursuit of their dreams and aspirations. ELCT ND SACCOS is a financial partner and friend.
+                </p>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+                    <p class="text-xl mb-6">
+                        We will customize a loan based on the amount of cash you need.
+                    </p>
+                    <a href="{{ route('contact') }}" class="bg-white text-primary-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg transition-colors duration-200 shadow-lg text-lg">
+                        Contact Now
+                    </a>
                 </div>
             </div>
         </div>
