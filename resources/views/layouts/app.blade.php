@@ -467,6 +467,24 @@
                         <a href="#" class="text-gray-400 hover:text-white text-sm">SCCULT (1992) LTD</a>
                     </div>
                 </div>
+            
+            <!-- Partners Section -->
+            <div class="border-t border-gray-800 mt-8 pt-8">
+                <div class="mb-6">
+                    <h3 class="text-lg font-bold mb-6 text-center">Our Partners</h3>
+                    <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-10 gap-6 items-center justify-center">
+                        <img src="{{ asset('images/Footer logos/coasco.png') }}" alt="COASCO" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/elct.png') }}" alt="ELCT" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/kcbl.png') }}" alt="KCBL" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/mocu.png') }}" alt="MoCU" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/nic.png') }}" alt="NIC" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/sccult.png') }}" alt="SCCULT" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/tcdc.png') }}" alt="TCDC" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/tfc.png') }}" alt="TFC" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/ubx.png') }}" alt="UBX" class="h-12 w-auto object-contain">
+                        <img src="{{ asset('images/Footer logos/umoja.png') }}" alt="UMOJA" class="h-12 w-auto object-contain">
+                    </div>
+                </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-400">
                     <div>
