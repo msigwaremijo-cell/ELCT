@@ -24,8 +24,9 @@
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-secondary">Arusha Main Branch</h3>
@@ -33,8 +34,9 @@
                 
                 <div class="space-y-3">
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Boma Road, Arusha City</h4>
@@ -43,8 +45,9 @@
                     </div>
                     
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Phone</h4>
@@ -63,8 +66,9 @@
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-secondary">Moshi Branch</h3>
@@ -72,8 +76,9 @@
                 
                 <div class="space-y-3">
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Rindi Lane, Moshi</h4>
@@ -82,8 +87,9 @@
                     </div>
                     
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Phone</h4>
@@ -102,8 +108,9 @@
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-secondary">Karatu Branch</h3>
@@ -111,8 +118,9 @@
                 
                 <div class="space-y-3">
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Karatu Town Center</h4>
@@ -121,8 +129,9 @@
                     </div>
                     
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Phone</h4>
@@ -141,8 +150,9 @@
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-secondary">Babati Branch</h3>
@@ -150,8 +160,9 @@
                 
                 <div class="space-y-3">
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Babati Town, Manyara</h4>
@@ -160,8 +171,9 @@
                     </div>
                     
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Phone</h4>
@@ -180,8 +192,9 @@
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-secondary">Mbulu Branch</h3>
@@ -189,8 +202,9 @@
                 
                 <div class="space-y-3">
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Mbulu Town Center</h4>
@@ -199,8 +213,9 @@
                     </div>
                     
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Phone</h4>
@@ -219,8 +234,9 @@
             <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-secondary">Ngorongoro Branch</h3>
@@ -228,8 +244,9 @@
                 
                 <div class="space-y-3">
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Ngorongoro Conservation</h4>
@@ -238,8 +255,9 @@
                     </div>
                     
                     <div class="flex items-start">
-                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        <svg class="w-5 h-5 text-primary-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
                         </svg>
                         <div>
                             <h4 class="font-semibold text-gray-900">Phone</h4>
@@ -273,8 +291,9 @@
                     <!-- Main Office -->
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                            <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 12l-4.243 4.243a1 1 0 00-1.414 1.414L2 5.657a1 1 0 01.414.707.293l2.828 2.828a1 1 0 01.414 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a1 1 0 110 2v10a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1z"/>
                             </svg>
                         </div>
                         <div>
@@ -290,8 +309,9 @@
                     <!-- Phone -->
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                            <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012 2v7a2 2 0 01-2 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l14 0"/>
                             </svg>
                         </div>
                         <div>
@@ -306,9 +326,8 @@
                     <!-- Email -->
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                            <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0l7.89-5.26a2 2 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                             </svg>
                         </div>
                         <div>
@@ -324,8 +343,8 @@
                     <!-- Business Hours -->
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                            <svg class="w-6 h-6 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+                            <svg class="w-6 h-6 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m0-4l-3 3m-3-4v4m0 4h6m-6 0v4m0-4l3 3m3-3l-3-3"/>
                             </svg>
                         </div>
                         <div>
